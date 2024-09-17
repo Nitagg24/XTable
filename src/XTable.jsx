@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function XTable() {
+const XTable = () => {
     const [articles, setArticles] = useState([
         { date: "2022-09-01", views: 100, article: "Article 1" },
         { date: "2023-09-01", views: 100, article: "Article 1" },
